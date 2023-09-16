@@ -1,10 +1,10 @@
 Name: Mridula Prabhakar
-NUID:
-Course:
+NUID: 002282462 (prabhakar.m@northeastern.edu)
+Course: INFO6150 12891 Web Design/User Experience
 Assignment: Assignment 1 (PET SHOP)
 Tags used: 
 Favicon: USed it to add a small icon on browser tab
-Table:
+Table: To diplay images and featured pets
 Form: Used to submit and display contact us page
 Images: Displayed multiple images on website
 Hyperlink: Used in Header and cards for redirection purpose
