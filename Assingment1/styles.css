@@ -1,0 +1,302 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    background-color: blueviolet;
+    height: 50px;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.5em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pets-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pets-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.pet-card1 img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    background-color: blueviolet;
+    color: rgb(147, 101, 140);
+
+}
+
+.center-card {
+    /* padding-top: 10vh; */
+    display: flex;
+    justify-content: center;
+}
+
+.review-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 500px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    background-color: blueviolet;
+    border-color: black;
+    border-width: 1px;
+    color: wheat;
+    display: flex;
+    border-radius: 5px;
+}
+
+.contact-us-box{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 500px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    background-color: blueviolet;
+    border-color: black;
+    border-width: 1px;
+    color: wheat;
+}
+.review-card-img{
+    height: 150px;
+    width:150px;
+}
+.pet-card img {
+    width: 100%;
+}
+
+.card-text {
+    font-size: 20px;
+    padding: 10px;
+    color: wheat;
+    text-align: center;
+}
+
+
+form button {
+    background-color: #007bff;
+    color: rgb(147, 101, 140);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: blueviolet;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer a {
+    color: #9ca7b4;
+    text-decoration: none;
+}
+
+/* Existing styles */
+
+/* Styles for the navigation bar */
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#pet-store-logo {
+    width: 5rem; 
+    height: 5rem; 
+    border-radius: 50%;
+    padding-top: 4px;
+}
+
+
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    text-align: right;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.contact-section {
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    
+}
+.contact-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contactus{
+    background-color: aqua;
+}
+
+form {
+    margin: 0;
+}
+
+
+.khaali-jugh{
+    height: 40vh;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.videopos {
+    width: 1200px;
+    height: 240px;
+}
+
+.table{
+    margin-top: 50%;
+}
+
+.summary{
+    text-align: center;
+}
+.summary-details{
+    background-color: rgb(133, 101, 151); 
+    color: white;
+}
+.pet-table{
+display: flex;
+justify-content: center;
+}
+.card-spacing{
+width: 100px;
+}
+
+.contact-page{
+    width:200px;
+    justify-content: center;
+}
+
+.card-holder {
+    display: flex; 
+    padding: 20px;
+}
+
+video {
+    display: block;
+    width: 100vw;
+    height: 20vh;
+    z-index: -100;
+    object-fit: cover;
+}
+
+.video-div {
+    width: 100vh;
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+  }
+
+  .reviews-spacing {
+    padding-top: 7vh;
+    padding-right: 10vh;
+  }
+
+  .table-align{
+    text-align: center;
+  }

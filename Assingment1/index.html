@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store</title>
+    <link rel="icon" href="planet.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <!-- <audio controls style="display: none;">
+        <source src="upbeat.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio> -->
+    <nav class="header">
+        <a href="index.html"><img id="pet-store-logo" src="pet-store-logo.jpg" alt="Logo"></a>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="featuredpets.html">Featured Pets</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <table class="table-align">
+            <tr >
+                <td>
+                    <img src="puggu.jpg">
+                </td>
+                <td>
+                    <div>
+                        <h1>Welcome to your very own pet shop </h1>
+                        <h2>Confused about what pet to get for your loved ones?</h2>
+                        <h3>You've come to the right place!</h3>
+                        <a href="#middle"><button>Find out more!</button></a>
+                    
+                    </div>
+                </td>
+            </tr>
+           
+            
+        </table>
+        <div class="card-holder" id="middle">
+        <div class="review-card">
+            <div ><img class="review-card-img" src="shop-pet.jpg" alt="Pet 3"></div>
+            <div><a class="card-text" href="featuredpets.html">SHOP FOR PETS</a></div>
+         </div>
+         <div class="card-spacing"></div>
+         <div class="review-card">
+            <div><img class="review-card-img" src="pet-group.jpg" alt="Pet 3"></div>
+            <div><a class="card-text" href="featuredpets.html">KNOW ABOUT US</a></div>
+         </div>
+        </div>
+    </div>
+    
+   <div >
+    
+    <div id="video-div">
+        <video class="videopos" autoplay muted loop>
+            <source src="dogcat.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+    </div>
+    <h1>Summary</h1>
+    <details class="summary-details">
+      <summary>Services we provide</summary>
+      <p>We provide a diverse range of local and indigenous pets.</p>
+    </details>
+    <details class="summary-details">
+        <summary>Policies on returning a pet</summary>
+        <p>We have a 15 day return policy. For more details, contact us on the contact details given on the 'Contact Us' page.</p>
+      </details class="summary-details">
+      <details class="summary-details">
+        <summary>Store Hours</summary>
+        <p>Our store is open from 9AM to 8PM on weekdays and 9AM to 6PM on weekends. We're closed on Mondays.</p>
+      </details>
+      <details class="summary-details">
+        <summary>Delivery Services</summary>
+        <p>We offer local delivery within a 6 mile radius of our store. Delivery charges may apply based on the distance. Please contact us for more details.</p>
+      </details>
+      <details class="summary-details">
+        <summary>Our Location</summary>
+        <p>You can find us at our store located at: 238 Hungtinton Ave, Boston, 12299. 
+        </p>
+      </details>
+      <details class="summary-details">
+        <summary>Vaccination of pets</summary>
+        <p>All our pets are thoroughly examined by our veterinians and are up-to-date on vaccinations before they are available for adoption or purchase.</p>
+      </details>
+      <details class="summary-details">
+        <summary>Reach out to us</summary>
+        <p>You can reach out to our customer support team through our 'Contact Us' page, where you can fill out a form or find our contact details. We're here to assist ypu with any questions or concerns you may have.</p>
+      </details>
+    </div> 
+    <li>
+        <p><strong>Pets we offer:</strong></p>
+        <ol>1. Fish</ol>
+        <ol>2. Dog</ol>
+        <ol>3. Cat</ol>
+        <ol>4. Hamster</ol>
+    </li>
+    
+    
+
+</body>
+<footer>
+    <p>For more information, call us at: <a href="tel:+1234567890">+1 234-567-890</a></p>
+    <p>Or email us at: <a href="mailto:info@petstore.com">info@petstore.com</a></p>
+    <menu type="context" id="shortcut-context-menu">
+        <menuitem label="Request Call Back" onclick="callBackRequested()" accesskey="C">REQUEST CALL BACK</menuitem>
+        <div class="card-spacing"></div>
+        <menuitem label="Connect to live agent" onclick="connectToLiveAgent()" accesskey="V">CONNECT TO LIVE AGENT</menuitem>
+    </menu>
+</footer>
+</html>
+
+<script>
+    
+
+    function callBackRequested() {
+        // Implement cut functionality here
+        alert('CALL BACK REQUESTED');
+        hideContextMenu();
+    }
+
+    function connectToLiveAgent() {
+        // Implement copy functionality here
+        alert('YOU WILL NOW BE CONNECTED TO A LIVE AGENT');
+        hideContextMenu();
+    }
+</script>
